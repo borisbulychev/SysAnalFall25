@@ -17,7 +17,6 @@ def main(input_str: str) -> list[list[int]]:
         Квадратичная матрица смежности (список списков из 0/1).
         Пустой список при отсутствии корректных рёбер.
     """
-    import re
 
     if not input_str or input_str.strip() == "":
         return []
